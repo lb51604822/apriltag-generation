@@ -10,6 +10,7 @@ First, you will need to generate the code associated with the layout of your mar
 ~~~
 ant
 java -cp april.jar april.tag.TagFamilyGenerator <layout> <minimalHammingDistance>
+java -cp april.jar april.tag.GenerateTags april.tag.Tag36h11 ./tag36h11  // Using.
 ~~~
 The choices of layout are : 
 - standard_x, new-style april tag with one pixel of data on the outside
